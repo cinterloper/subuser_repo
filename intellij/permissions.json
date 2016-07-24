@@ -1,0 +1,9 @@
+{
+  "executable": "/opt/intellij/bin/idea.sh",
+  "access-working-directory": true,
+  "allow-network-access": true,
+  "basic-common-permissions": true,
+  "stateful-home": true,
+  "x11": true,
+  "maintainer": "grant <grant@iowntheinter.net>"
+}

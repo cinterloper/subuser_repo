@@ -1,0 +1,9 @@
+{
+ "user-dirs": [
+  "fucking_data"
+ ],
+ "executable"                : "/usr/bin/xterm",
+ "maintainer": "grant <grant@iowntheinter.net>",
+ "access-working-directory": true,
+ "x11": true
+}
