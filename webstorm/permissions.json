@@ -1,5 +1,5 @@
 {
-  "executable": "/opt/intellij/bin/idea.sh",
+  "executable": "/opt/webstorm/bin/webstorm.sh",
   "access-working-directory": true,
   "allow-network-access": true,
   "basic-common-permissions": true,
