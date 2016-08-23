@@ -1,0 +1,10 @@
+{
+  "executable": "/opt/pycharm/bin/pycharm.sh",
+  "access-working-directory": true,
+  "allow-network-access": true,
+  "basic-common-permissions": true,
+  "stateful-home": true,
+  "user-dirs"                 : [".m2", "code", "Downloads"],
+  "x11": true,
+  "maintainer": "grant <grant@iowntheinter.net>"
+}

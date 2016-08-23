@@ -1,0 +1,5 @@
+FROM cinterloper/lash
+RUN apt-get update && apt-get upgrade -y && apt-get install -y openjdk-8-jdk axel maven jq nodejs gradle groovy2 && apt clean
+RUN axel https://download.jetbrains.com/python/pycharm-professional-2016.2.1.tar.gz
+RUN mv pycharm-professional-2016.2.1.tar.gz /opt && cd opt && tar -zxvf *.tar.gz
+RUN cd /opt && ln -sf $( find $(pwd) -maxdepth 1 -type d  | grep -i pycharm )  pycharm
