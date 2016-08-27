@@ -1,5 +1,5 @@
 FROM cinterloper/lash
-RUN apt-get update && apt-get upgrade -y && apt-get install -y openjdk-8-jdk axel maven jq nodejs gradle groovy2 && apt clean
+RUN apt-get update && apt-get upgrade -y && apt-get install -y openjdk-8-jdk axel maven jq nodejs gradle groovy2 nodejs npm && apt clean
 RUN axel https://download.jetbrains.com/webstorm/WebStorm-2016.2.2.tar.gz
 RUN mv WebStorm-2016.2.2.tar.gz /opt && cd opt && tar -zxvf *.tar.gz
 RUN cd /opt && ln -sf $( find $(pwd) -maxdepth 1 -type d  | grep -i webstorm )  webstorm
