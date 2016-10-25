@@ -1,10 +1,10 @@
 {
-  "executable": "/opt/intellij/bin/idea.sh",
+  "executable": "/usr/bin/virt-manager",
   "access-working-directory": true,
   "allow-network-access": true,
   "basic-common-permissions": true,
   "stateful-home": true,
-  "user-dirs"                 : [".m2", "code", "Downloads", ".aws", ".ssh"],
+  "user-dirs":[".ssh"],
   "x11": true,
   "maintainer": "grant <grant@iowntheinter.net>"
 }

@@ -4,7 +4,7 @@
   "allow-network-access": true,
   "basic-common-permissions": true,
   "stateful-home": true,
-  "user-dirs"                 : [".m2", "code", "Downloads"],
+  "user-dirs"                 : [".m2", "code", "Downloads","gocode"],
   "x11": true,
   "maintainer": "grant <grant@iowntheinter.net>"
 }
