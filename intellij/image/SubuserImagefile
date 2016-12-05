@@ -1,6 +1,6 @@
 FROM cinterloper/lash
 RUN locale-gen en_US.UTF-8  
 RUN apt-get update && apt-get upgrade -y && apt-get install -y openjdk-8-jdk axel maven jq nodejs gradle groovy2 && apt clean
-RUN axel https://download-cf.jetbrains.com/idea/ideaIU-2016.2.5.tar.gz 
-RUN mv ideaIU-2016.2.5.tar.gz /opt && cd opt && tar -zxvf *.tar.gz
+RUN axel https://download-cf.jetbrains.com/idea/ideaIU-2016.3.tar.gz 
+RUN mv ideaIU-2016.3.tar.gz /opt && cd opt && tar -zxvf *.tar.gz
 RUN cd /opt; ln -sf $( find . -maxdepth 1 -type d| grep idea) intellij

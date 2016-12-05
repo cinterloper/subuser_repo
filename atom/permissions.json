@@ -1,10 +1,10 @@
 {
-  "executable": "/opt/webstorm/bin/webstorm.sh",
+  "executable": "/blocking.sh",
   "access-working-directory": true,
   "allow-network-access": true,
   "basic-common-permissions": true,
   "stateful-home": true,
-  "user-dirs":  [".m2", "code", "Downloads", ".aws", ".ssh"],
+  "user-dirs"                 : [".m2", "code", "Downloads", ".aws", ".ssh"],
   "x11": true,
   "maintainer": "grant <grant@iowntheinter.net>"
 }

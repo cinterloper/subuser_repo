@@ -1,0 +1,6 @@
+FROM cinterloper/lash
+RUN locale-gen en_US.UTF-8  
+RUN apt-get update && apt-get upgrade -y && apt-get install -y openjdk-8-jdk axel maven jq nodejs gradle groovy2 && apt clean
+RUN #axel http://download.unity3d.com/download_unity/linux/unity-editor-5.4.2f2+20161111_amd64.deb
+ADD unity.deb /tmp
+RUN apt -y install /tmp/unity.deb
